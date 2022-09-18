@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -33,6 +34,15 @@ ul {
     height: 40px;
     /* background-color: blue; */
     border-bottom: 1px solid grey;
+}
+
+.navlistSoMe button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 
