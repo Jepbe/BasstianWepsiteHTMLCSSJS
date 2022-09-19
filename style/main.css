@@ -8,8 +8,15 @@ html {
     background-image: url(/assets/1L5A9202.jpg);
     /* background-image: url(/assets/1L5A9316.jpg); */
     background-size: 100%;
-    /* background-position-y: 60px; */
+    background-position-x: center;
 }
+
+/* BG image */
+/* 
+@media screen and (max-width: ){
+    
+} */
+
 
     /* Navbar */
 
@@ -44,7 +51,7 @@ ul {
     top: 0;
     height: 60px;
     background-color: white;
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
 }
 
 .navlistSoMe button {
@@ -95,4 +102,28 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.mainDiv div {
+    display: block;
+    text-align: center;
+}
+
+.mDivDiv button {
+   text-align: center; 
+   border: 2px solid white;
+   background-color: transparent;
+   color: white;
+   width: 17vh;
+   font-size: 15px;
+   font-weight: 500;
+   height: 35px;
+   transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.mDivDiv button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
 }
