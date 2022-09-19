@@ -9,13 +9,54 @@ html {
     /* background-image: url(/assets/1L5A9316.jpg); */
     background-size: 100%;
     background-position-x: center;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 /* BG image */
-/* 
-@media screen and (max-width: ){
-    
-} */
+
+@media screen and (max-width: 1200px){
+    html {
+        background-size: 120%;
+    }
+}
+
+@media screen and (max-width: 978px){
+    html {
+        background-size: 150%;
+    }
+}
+
+
+@media screen and (max-width: 776px){
+    html {
+        background-size: 180%;
+    }
+}
+
+@media screen and (max-width: 655px){
+    html {
+        background-size: 210%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    html {
+        background-size: 240%;
+    }
+}
+
+@media screen and (max-width: 506px){
+    html {
+        background-size: 280%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    html {
+        background-size: 320%;
+    }
+}
 
 
     /* Navbar */
@@ -126,4 +167,22 @@ ul {
     background-color: white;
     color: black;
     transition: 0.2s ease-in-out;
+}
+
+
+/* Bottom music bar */
+
+.bottom {
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #242424;
+}
+
+.bottom p {
+    transform: rotate(270deg);
 }
