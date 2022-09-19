@@ -1,8 +1,10 @@
 
 
 var btn = document.querySelector("#button");
-btn.addEventListener("click", button());
+document.querySelector("#button").addEventListener("click", unfoldMusic);
 
-function button() {
-    
+function unfoldMusic() {
+    var bBtn = document.querySelector("#bottomBtn");
+    bBtn.style.backgroundColor = "transparent";
+    console.log("works")
 }
