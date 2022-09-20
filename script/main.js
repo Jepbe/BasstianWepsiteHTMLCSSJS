@@ -1,10 +1,8 @@
-
-
-var btn = document.querySelector("#button");
-document.querySelector("#button").addEventListener("click", unfoldMusic);
-
 function unfoldMusic() {
-    var bBtn = document.querySelector("#bottomBtn");
-    bBtn.style.backgroundColor = "transparent";
-    console.log("works")
+    var x = document.getElementById("bottomBtn");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
