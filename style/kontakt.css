@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url(/assets/1L5A9202.jpg);
+    background-image: url(/assets/img/1L5A9317.jpg);
     /* background-image: url(/assets/1L5A9316.jpg); */
     background-size: 100%;
     background-position-x: center;
@@ -103,6 +103,9 @@ ul {
     margin-left: 5px;
 }
 
+.navbarOpen {
+    display: none !important;
+}
 
 .navlistSoMe {
     position: absolute;
@@ -115,20 +118,95 @@ ul {
     ul {
         margin-left: 15%;
     }
+    .navbarOpen {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 720px) {
     ul {
         margin-left: 20%;
     }
+    .navbarOpen {
+        display: none !important;
+    }
 }
 
 
 @media screen and (max-width: 700px) {
+    .navbarBoks {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        top: 60px;
+        margin: 0;
+        display: none;
+    }
+    
     .navbarBoks li {
         display: block;
         text-align: center;
-        background-color: grey;
-        display: none;
+        background-color: rgb(229, 229, 229);
+        font-weight: 700;
+        font-size: larger;
+    }
+
+    .navbarOpen {
+        display: inline-block !important;
+        position: absolute;
+        top: 13px;
+        right: 0;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        z-index: 2;
+        color: black;
+    }
+
+    .navlistSoMe {
+        right: 2rem;
+    }
+}
+
+/* main content */
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    height: 60vh;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.main h2 {
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1182px) {
+    .main {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 860px) {
+    .main {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 567px) {
+    .main {
+        width: 100%;
     }
 }
