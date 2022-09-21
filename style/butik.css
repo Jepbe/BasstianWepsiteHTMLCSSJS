@@ -9,7 +9,7 @@ html {
     /* background-image: url(/assets/1L5A9316.jpg); */
     background-size: 100%;
     background-position-x: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* overflow-y: hidden; */
 }
 
@@ -149,13 +149,33 @@ body div {
     align-content: flex-start;
     position: relative;
     top: 6rem;
-    height: 280vh;
+    min-height: 150vh;
     flex-wrap: wrap;
 }
 
 .mainFlex div {
     width: 20rem;
     height: 30rem;
-    background-color: green;
+    background-color: #f0f0f0;
     margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(/assets/img/1L5A9274.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.mainFlex div img {
+    width: 150%;
+}
+
+.mainFlex div h3 {
+    /* position: absolute; */
+    color: white;
+}
+
+.buyBtn {
+    text-align: center;
+    width: 80%;
+    height: 20px;
 }
