@@ -153,6 +153,13 @@ body div {
     flex-wrap: wrap;
 }
 
+
+@media screen and (max-width: 1250px) {
+    .mainFlex {
+        width: 100%;
+    }
+}
+
 .mainFlex div {
     width: 20rem;
     height: 30rem;
@@ -160,9 +167,6 @@ body div {
     margin: 10px;
     overflow: hidden;
     text-align: center;
-    background-image: url(/assets/img/1L5A9274.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
 }
 
 .mainFlex div img {
@@ -171,11 +175,21 @@ body div {
 
 .mainFlex div h3 {
     /* position: absolute; */
-    color: white;
+    color: #000;
+    margin-top: 1rem;
 }
 
 .buyBtn {
     text-align: center;
     width: 80%;
     height: 20px;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+    height: 40px;
+    position: relative;
+    top: 2rem;
 }

@@ -25,3 +25,15 @@ function unfoldMusic() {
 
 // links
 
+///// wewewewewewewe
+function imgLink() {
+    window.location.href = "/"
+}
+
+function buyT() {
+    window.location.href = "/butik"
+}
+
+function book() {
+    window.location.href = "/kontakt"
+}
