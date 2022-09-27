@@ -133,7 +133,7 @@ ul {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     .navbarBoks {
         width: 100%;
         left: 0;
@@ -178,6 +178,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mainUl {
+    text-align: center;
+    margin: 0;
 }
 
 .main {
