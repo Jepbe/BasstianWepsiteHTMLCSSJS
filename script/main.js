@@ -12,14 +12,6 @@ function unfoldMusic() {
     } else {
         y.style.bottom = "5rem"
     }
-
-    // var z = document.getElementById("button");
-    // if (z.style.transform = "rotate(270deg)") {
-    //     z.style.transform = "rotate(180deg)";
-    // } 
-    // if (z.style.transform = "rotate(90deg)"); {
-    //     z.style.transform = "rotate(180deg)"
-    // }   
 }
 
 
@@ -70,3 +62,5 @@ function navbarOpen() {
         list.style.display = "block"
     }
 }
+
+
