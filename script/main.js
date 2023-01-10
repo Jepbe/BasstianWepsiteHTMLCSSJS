@@ -1,18 +1,4 @@
-function unfoldMusic() {
-    var x = document.getElementById("bottomBtn");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
 
-    var y = document.getElementById("button");
-    if (y.style.bottom === "5rem") {
-        y.style.bottom = "1.2rem";
-    } else {
-        y.style.bottom = "5rem";
-    }
-}
 
 // links
 

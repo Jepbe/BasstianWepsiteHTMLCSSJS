@@ -57,6 +57,11 @@ html {
         background-size: 320%;
     }
 }
+@media screen and (max-width: 370px){
+    html {
+        background-size: 420%;
+    }
+}
 
 
     /* Navbar */
@@ -210,47 +215,38 @@ ul {
 /* Bottom music bar */
 
 .bottom {
-    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 10px;
+    width: 80px;
     height: 80px;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    background-color: #242424;
-    overflow: hidden;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
 }
-
-
-#button {
-    max-height: 100%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    position: absolute;
-    bottom: 1.2rem;
-    left: 50%;
-    transform: rotate(270deg);
-    z-index: 1;
-    cursor: pointer;
-}
-
-
-#bottomBtn {
-    display: none;
-}
-
 
 .flex img {
     height: 80px;
     position: relative;
-    /* top: -100px */
-    float: left;
+    border-radius: 100%;
+    border: 2px solid whitesmoke;
 }
 
 .flex {
-    float: left;    
-    font-size: medium;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+#musicPlayerButton {
+    background-color: transparent;
+    color: white;
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
