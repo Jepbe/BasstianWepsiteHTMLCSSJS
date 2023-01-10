@@ -10,7 +10,7 @@ function unfoldMusic() {
     if (y.style.bottom === "5rem") {
         y.style.bottom = "1.2rem";
     } else {
-        y.style.bottom = "5rem"
+        y.style.bottom = "5rem";
     }
 }
 
