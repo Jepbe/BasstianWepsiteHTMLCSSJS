@@ -226,7 +226,6 @@ ul {
     max-height: 100%;
     color: white;
     font-size: 30px;
-
     text-align: center;
     position: absolute;
     bottom: 1.2rem;
@@ -252,4 +251,6 @@ ul {
 .flex {
     float: left;    
     font-size: medium;
+    display: flex;
+    align-items: center;
 }
