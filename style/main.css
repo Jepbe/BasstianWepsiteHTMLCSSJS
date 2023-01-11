@@ -215,9 +215,10 @@ ul {
 /* Bottom music bar */
 
 .bottom {
-    margin: 0 auto;
-    position: relative;
-    bottom: 10px;
+    position: fixed;
+    bottom: 10vh;
+    left: 50%;
+    transform: translate(-50%, 50%);
     width: 80px;
     height: 80px;
     /* background-color: grey; */
