@@ -234,3 +234,18 @@ body div {
     position: relative;
     top: 1rem;
 }
+
+.buyBtnD {
+    text-align: center;
+    width: 40%;
+    height: 20px;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+    height: 40px;
+    position: relative;
+    top: 1rem;
+}
