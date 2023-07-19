@@ -7,7 +7,7 @@ function imgLink() {
 }
 
 function buyT() {
-    window.location.href = "/butik"
+    window.location.href = "https://djbasstian.sportyfied.com"
 }
 
 function book() {
@@ -29,7 +29,7 @@ function instagram() {
 }
 function youtube() {
     window.open(
-        "https://www.youtube.com/channel/UCFjgyN5rCfz8SNGd56Lyp3Q", "_blank");
+        "https://www.youtube.com/@dj_basstian", "_blank");
 }
 function homePage() {
     window.location.href = "/";

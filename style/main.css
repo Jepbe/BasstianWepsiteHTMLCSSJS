@@ -15,53 +15,39 @@ html {
 
 /* BG image */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px)  {
     html {
-        background-size: 120%;
+        background-size: 200%;
     }
 }
-
-@media screen and (max-width: 978px){
+@media screen and (max-width: 1350px)  {
     html {
         background-size: 150%;
     }
 }
-
-
-@media screen and (max-width: 776px){
+@media screen and (max-width: 880px)  {
     html {
-        background-size: 180%;
+        background-size: 260%;
+    }
+}
+@media screen and (max-width: 550px)  {
+    html {
+        background-size: 350%;
     }
 }
 
-@media screen and (max-width: 655px){
+@media screen and (max-width: 450px)  {
     html {
-        background-size: 210%;
+        background-size: 400%;
+    }
+}
+@media screen and (max-width: 350px)  {
+    html {
+        background-size: 450%;
     }
 }
 
-@media screen and (max-width: 580px){
-    html {
-        background-size: 240%;
-    }
-}
 
-@media screen and (max-width: 506px){
-    html {
-        background-size: 280%;
-    }
-}
-
-@media screen and (max-width: 415px){
-    html {
-        background-size: 320%;
-    }
-}
-@media screen and (max-width: 370px){
-    html {
-        background-size: 420%;
-    }
-}
 
 
     /* Navbar */
